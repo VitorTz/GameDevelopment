@@ -19,7 +19,7 @@ public class AnimationSprite extends Component<AnimationSprite> {
             System.out.println("File " + f.getAbsolutePath() + " not founded!");
             System.exit(-1);
         }
-        this.spriteSheet = new SpriteSheet(f, Constants.PLAYER_TILE_DIMENSION, 2, 1, 5);
+        this.spriteSheet = new SpriteSheet(f, Constants.PLAYER_TILE_DIMENSION, 2, 1, 4);
     }
 
     @Override
